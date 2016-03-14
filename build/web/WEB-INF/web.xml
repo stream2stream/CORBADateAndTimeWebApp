@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>  
+
+    <context-param>
+        <param-name>corba_ns_loc</param-name>
+        <param-value>-ORBInitRef.NameService=corbaloc::localhost:2089/StandardNS/NameServer-POA/_root</param-value>
+    </context-param>
+</web-app>
